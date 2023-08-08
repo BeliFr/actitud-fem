@@ -4,101 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/3992c15c73.js" crossorigin="anonymous"></script>
+  <script src="/main.js"></script>
   <title>MENU CSS</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3b8c089698.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header class="header">
-<nav class="nav_bar" id="nav__bar">
-  
-  <div class="nav_bar--logo">
-    <label for="menu-toggle" class="nav_bar--menu--checkbox"><i class="fa-solid fa-bars" style="color: #fff;"></i></label>
-  <img src="/img/logoactitudfemnegro.jpeg" class="nav_bar--logo-img" alt="logo actitud fem ">
-  </div>
-  <input type="checkbox" name="" id="menu-toggle" class="nav_bar--menu--checkbox">
-  <ul class="nav_bar--categorias" id="hidden-menu">
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" >Lo más reciente</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Entorno</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Belleza</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Moda</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Novias</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Celebridades</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Amor propio</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Must</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Hogar</a></li>
-  <li class="nav_bar--categorias--li"><i class="fa-solid fa-tag rosa"></i><a href="#" class="nav_bar--categorias--links" ></i>Juegos</a></li>
-  
-   <ul class="nav_bar--redes">
-    <li class="redes-text">Nuestras redes sociales</li>
-    <li class="nav_bar--redes--item"><a href="#" class="nav_bar--redes--links"><i class="fa-brands fa-twitter"></i></a></li>
-    <li class="nav_bar--redes--item"><a href="#" class="nav_bar--redes--links"><i class="fa-brands fa-facebook-f"></i></a></li>
-    <li class="nav_bar--redes--item"><a href="#" class="nav_bar--redes--links"><i class="fa-brands fa-instagram"></i></a></li>
-    <li class="nav_bar--redes--item"><a href="#" class="nav_bar--redes--links"><i class="fa-brands fa-youtube"></i></a></li>
-   </ul>  
-</ul>
-</nav>
+  <nav class="menu__nav">
+    <img src="/img/logoactitudfemnegro.jpeg" class="menu__nav--img" alt="logo actitud fem">
+    <input type="checkbox" id="menu__nav--check">
+    <label for="menu__nav--check" class="menu__nav--label">
+      <img src="/img/menu-blanco.jpeg" class="menu__nav--menu" alt="menu">
+    </label>
+    <ul class="menu__nav--nav_links">
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Entorno</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Belleza</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Moda</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Novias</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Celebridades</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Amor Propio</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Must</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Hogar</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"><i class="fa-solid fa-tags rosa"></i> Juegos</a></li>
+      <li><a href="#" class="menu__nav--links--enlace--suscripcion"><i class="fa-solid fa-arrow-right rosa"></i></i> Nosotros</a></li>
+      <li><a href="#" class="menu__nav--links--enlace--suscripcion"><i class="fa-solid fa-arrow-right rosa"></i></i> Suscribete</a></li>
+      <li><a href="#" class="menu__nav--links--enlace--redes" id ="menu__nav--links--enlace--redes"><i class="fa-brands fa-facebook-f"></i> </a></li>
+      <li><a href="#" class="menu__nav--links--enlace--redes" id ="menu__nav--links--enlace--redes"><i class="fa-brands fa-instagram"></i></i> </a></li>
+      <li><a href="#" class="menu__nav--links--enlace--redes" id ="menu__nav--links--enlace--redes"><i class="fa-brands fa-twitter"></i> </a></li>
+      <li><a href="#" class="menu__nav--links--enlace--redes" id ="menu__nav--links--enlace--redes"><i class="fa-brands fa-youtube"></i></a></li>
+    </ul>
+  </nav>
   </header>
-  <section class="principal" style="display:flex; flex-direction: column; align-items: center;">
+  <section class="section--principal">
     <h1>SECCIÓN PRINCIPAL</h1> 
-    <article class="main" style="display:flex; flex-wrap:wrap; justify-content:center;">
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 300px;  min-width: 50px;">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #88b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+    <article class="articles--section--principal">
+        
+      <figure class="article--card secundaria">
+          <img class="card--img--secundaria" src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota"  >
+          <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+          <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>     
+      </figure>
+
+      <figure class="article--card secundaria">
+        <img class="card--img--secundaria" src="/img/luis-miguel-doble.webp" alt="imagen nota"  >
+        <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+        <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>     
+    </figure>
+
+    <figure class="article--card secundaria">
+      <img class="card--img--secundaria" src="/img/wendy-y-nicola.webp" alt="imagen nota"  >
+      <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+      <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>     
+  </figure>
+
+  <figure class="article--card secundaria">
+    <img class="card--img--secundaria" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>     
 </figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 300px;  min-width: 50px;">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #88b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
-</figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 300px;  min-width: 50px;">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #88b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
-</figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 300px;  min-width: 50px;">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #89b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
-</figure>
-</article>
-<article class="mainArticle"style="display:flex;justify-content:center;">
-    <figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 800px;">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #89b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+      
     </article>
 
-<article class="moreviews" style="display:flex; flex-wrap:wrap; justify-content:center;">
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 600px;">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #88b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+<article class="articles--section--principal">
+<figure class="article--card principal">
+    <img class="card--img--principal" src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>     
 </figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 600px;  ">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #88b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+</article>
+
+<article class="articles--section--principal">
+<figure class="article--card mediana">
+    <img class="card--img--principal" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>   
 </figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 600px; ">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #88b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+<figure class="article--card mediana">
+    <img class="card--img--principal" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>   
 </figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 600px;  ">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #89b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+<figure class="article--card mediana">
+    <img class="card--img--principal" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>   
 </figure>
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 600px;  ">
-    <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #89b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
-</figure><figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 600px;  ">
-    <img src="/img/proteccionsolarpostcuarentena.webp"alt="imagen nota" style="width: 100%;display:block;">
-    <h3 style="border-bottom: 5px solid #89b2ff;margin-top:2rem;"> CATEGORIA </h3>
-    <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
+<figure class="article--card mediana">
+    <img class="card--img--principal" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>   
 </figure>
+<figure class="article--card mediana">
+    <img class="card--img--principal" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>   
+</figure>
+<figure class="article--card mediana">
+    <img class="card--img--principal" src="/img/protector-solar-piel.webp" alt="imagen nota"  >
+    <h3 class="titulo--card--categoria"> CATEGORIA </h3>
+    <h4 class="titulo--card--nota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h4>   
+</figure>
+
 </article>
 
 </section>
@@ -106,17 +114,17 @@
 <section class="videos" style="display:flex; flex-direction: column; align-items: center;">
 <h1>VIDEOS</h1>
 <article class="mainVideo"style="display:flex;justify-content:center;">
-<figure style="background-color:pink; display:flex; flex-direction: column; align-items: center; max-width: 800px;">
+<figure style="background-color:purple; display:flex; flex-direction: column; align-items: center; max-width: 800px;">
 <img src="/img/proteccionsolarpostcuarentena.webp" alt="imagen nota" style="width: 100%;display:block;">
 <h3 style="border-bottom: 5px solid #89b2ff;margin-top:2rem;"> CATEGORIA </h3>
 <h2 style="text-align:center;margin-top:-0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint eveniet unde vel impedit excepturi minima. </h2>     
 </article>
 
 </section>
-<footer style="background-color: black;color: white;display:flex; ">
-<figure style="justify-content: center;" >
-    <img src="" alt="logo imagen" style="flex-grow: 2;">
-    <img src="" alt="logo actitud"style="flex-grow: 2;">
+<footer style="background-color: black;color: white;display:flex; flex-direction:column; align-items:center;">
+<figure style="align-items: center;" >
+    <img src="./img/logoimagen.png" alt="logo imagen" style="flex-grow: 2; height:100px;">
+    <img src="./img/logoactitudfemnegro.jpeg" alt="logo actitud"style="flex-grow: 2;height:60px;">
 </figure>
 <ul style="list-style: none; display: flex;">
     <li style="flex-grow: 3;">Términos y condiciones de uso</li>
@@ -139,13 +147,14 @@
     <img src="" alt="slider de marcas">
     <a href="">Slider</a>
 </figure >
+
+<figure>
+    <img class="logos-empresa" src="./img/hcYellow.png" alt="empresa1">
+    <img class="logos-empresa" src="./img/life.png" alt="empresa2">
+    <img class="logos-empresa" src="./img/esrlogo.jpeg" alt="empresa3">
+</figure>
 <p class="text-derechos"> © 2023 Imagen Digital. Todos los derechos reservados.Prohibida la reproducción total o parcial, incluyendo cualquier medio electrónico o magnético.
 </p>
-<figure class="logos-empresa">
-    <img src="" alt="empresa1">
-    <img src="" alt="empresa2">
-    <img src="" alt="empresa3">
-</figure>
 </footer>   
 </body>
 </html>
