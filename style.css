@@ -35,7 +35,6 @@
 .menu__nav--nav_links li{
   display:inline-block;
   line-height: 80px;
-
 }
 .menu__nav--links--enlace, .menu__nav--links--enlace--redes {
   color:#fff;
@@ -62,7 +61,6 @@
   font-size:1.3rem;
   padding: 7px 13px;
   border-radius: 3px;
-
 }
 
 .menu__nav--menu{
@@ -137,7 +135,6 @@ cursor:pointer;
 .menu__nav--links--enlace{
   font-size: 2 rem ;
   text-align: right;
-
 }
 
 .links__redes{
@@ -157,7 +154,6 @@ cursor:pointer;
   left:15%;
   top:0;
   color:#ffffff;
-
 }
 .menu__nav--links--enlace:hover{
   background: none;
