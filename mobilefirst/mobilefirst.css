@@ -5,7 +5,7 @@
   padding:0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
 }
 .menu__nav{
@@ -35,6 +35,7 @@
 .menu__nav--nav_links li{
   display:inline-block;
   line-height: 80px;
+
 }
 .menu__nav--links--enlace, .menu__nav--links--enlace--redes {
   color:#fff;
@@ -61,6 +62,7 @@
   font-size:1.3rem;
   padding: 7px 13px;
   border-radius: 3px;
+
 }
 
 .menu__nav--menu{
@@ -135,6 +137,7 @@ cursor:pointer;
 .menu__nav--links--enlace{
   font-size: 2 rem ;
   text-align: right;
+
 }
 
 .links__redes{
@@ -154,6 +157,7 @@ cursor:pointer;
   left:15%;
   top:0;
   color:#ffffff;
+
 }
 .menu__nav--links--enlace:hover{
   background: none;
@@ -176,77 +180,123 @@ cursor:pointer;
 
 
 
-
-
-
-.section--principal{
-  display:flex; 
-  flex-direction: column; 
-  text-align: center;
-  align-content: space-around;
-  margin-top: 3rem;
-  margin-bottom:3rem;
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   }
+   img{
+    max-width: 100%;
+   }
   
-}
+   main{
+    padding: 1rem;
+    margin: 0 auto;
+    
+   }
 
-.articles--section--principal{
-  display:flex; 
-  flex-wrap:wrap; 
-  justify-content:space-evenly; 
+   h1,h2,h3,p{
+    margin:0;
+    
+  }
   
-}
+  h1,h2,h3,p{
+    margin:0;
+    font-weight: 800;
+  }
+  
+  p{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 100;
+    
+  }
+  
+  
+  
+  .articulo__principal{
+    display:flex;
+    flex-direction:column;
+    gap: 1rem;
+  }
+  
+  .articulo-titulo{
+    gap: 0.5rem;
+    font-size: 1rem;
+    text-underline-position:below;
+    border-bottom: 3px solid #de41d1;
+    
+  }
 
-.secundaria{
-  width: 400px;
-}
+  .articulo__principal-descripcion{
+    margin-bottom: 2rem;
+  }
+  
+  
+  .articulo__secundario{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  .articulo__secundario-wrapper-text{
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem;
+  }
+   
+  .articulo__secundario-title{
+    gap: 0.5rem;
+    font-size: 1rem;
+    text-underline-position:below;
+    border-bottom: 3px solid #de41d1;
+  }
+  
+  .articulo__secundario-descripcion
+  .articulo__descubre-descripcion{
+    line-height: 0.8rem;
+  }
+  
+  .seccion__secundaria,
+  .seccion__juegos,
+  .seccion__videos,
+  .seccion__tendencia{
+    text-align: center;
+    margin: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+  }
+  .articulo__juegos{
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+ .boton__juegos{
+  margin-top: 1rem;
+  font-family: inherit;
+  padding: 0.5rem;
+  border-radius: 20px;
+ }
 
-.principal{
-  width: 800px;
-}
+ .articulo__video-contenedor-texto{
+  background-color: aquamarine;
+ }
 
-.mediana{
-  width: 500px;
+  .seccion__descubre{
+    margin-top: 2.75rem;
+    padding:1rem;
+    /* background-color: rgb(222, 215, 215); */
+  }
+  
+  .articulo__descubre{
+    background-color: rgb(222, 215, 215);
+    margin: 1rem;
+    /* border-bottom: 10px solid rgb(203, 25, 186); */
+    padding-block: 1rem;
+  }
+  
  
-}
-
-.small{
-  width:200px;
-
-}
-.article--card{
-  /* background-color:pink;  */
-  display:flex; 
-  flex-direction: column; 
-  align-items: center; 
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
   
-}
-
-.card--img--secundaria{  
-  width: 100%;
-  height:80%;
-}
-.card--img--principal{  
- width: 100%;
-  height:80%;
-}
-
-.titulo--card--categoria{
-  text-underline-position: auto;
-  border-bottom: 5px solid #de41d1;
-  margin-top:1rem;
-}
-
-.titulo--card--nota{
-  text-align:center;
-  margin:1rem;
-  font-weight: 200;
-}
-
-.logos-empresa{
-  height: 50px;
-  justify-content:space-evenly;
-}
-
+  
