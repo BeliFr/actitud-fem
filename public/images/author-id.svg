@@ -1,0 +1,19 @@
+<svg width="63" height="62" viewBox="0 0 63 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="63" height="62" fill="#F4F4F4"/>
+<g id="Mobile Note 360" clip-path="url(#clip0_42_1666)">
+<rect width="360" height="5200" transform="translate(-20 -668)" fill="white"/>
+<rect id="Rectangle 94" x="-11" y="-10" width="342" height="82" fill="#D9D9D9"/>
+<g id="Group 13205">
+<rect id="Rectangle 95" x="2" y="1" width="60" height="60" fill="#17BFA3" fill-opacity="0.22"/>
+<line id="Line 13" x1="3.35651" y1="0.64943" x2="62.3565" y2="60.6494" stroke="black"/>
+<line id="Line 14" x1="60.3536" y1="1.35355" x2="0.353554" y2="61.3536" stroke="black"/>
+</g>
+<g id="Group 13221">
+</g>
+</g>
+<defs>
+<clipPath id="clip0_42_1666">
+<rect width="360" height="5200" fill="white" transform="translate(-20 -668)"/>
+</clipPath>
+</defs>
+</svg>
