@@ -15,7 +15,6 @@
   padding:0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
 .menu__nav{
@@ -53,6 +52,7 @@
   font-size:1.rem;
   padding: 2px 3px;
   border-radius: 3px;
+  font-family: 'Roboto-Black', sans-serif;
 }
 .menu__nav--categories:hover, .menu__nav--social-network:hover{
   background-color: #FB6F92;
