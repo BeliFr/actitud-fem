@@ -1,11 +1,15 @@
-
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("/Roboto/Roboto-Black.woff") format(.woff);
+  font-display:swap;
+}
 *{
   box-sizing: border-box;/*para que no se salga el elemento*/
   margin:0;
   padding:0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
 .menu__nav{
@@ -38,13 +42,13 @@
   display:inline-block;
   line-height: 80px;
 }
-.menu__nav--links--enlace, .menu__nav--links--enlace--redes {
+.menu__nav--categories, .menu__nav--social-network {
   color:#fff;
   font-size:1.rem;
   padding: 2px 3px;
   border-radius: 3px;
 }
-.menu__nav--links--enlace:hover, .menu__nav--links--enlace--redes:hover{
+.menu__nav--categories:hover, .menu__nav--social-network:hover{
   background-color: #FB6F92;
   transition: .5s;
 }
@@ -86,7 +90,7 @@ display:none;
 .menu__nav{
   padding-left: 10px;
 }
-.menu__nav--links--enlace{
+.menu__nav--categories{
 font-size: .8rem;
 }
 }
@@ -126,7 +130,7 @@ cursor:pointer;
   background-color:#FB6F92;
   transition: all 0.75s;
 }
-.menu__nav--nav_links > li::before{
+.menu__nav--nav_categories > li::before{
   content: "";
   position:absolute;
   width:10px;
@@ -134,12 +138,12 @@ cursor:pointer;
   background-color: #88b2ff;
   left:10px;
 }
-.menu__nav--links--enlace{
+.menu__nav--categories{
   font-size: 2 rem ;
   text-align: right;
 }
 
-.links__redes{
+.links__social-network{
   width:70%;
   height: 15%;
   margin-inline:auto;
@@ -147,7 +151,7 @@ cursor:pointer;
   align-items: end;
   margin-top:20px ;
 }
-.links__redes::before {
+.links__social-network::before {
   content: attr(mensaje);
   position: absolute;
   width: fit-content;
@@ -157,7 +161,7 @@ cursor:pointer;
   top:0;
   color:#ffffff;
 }
-.menu__nav--links--enlace:hover{
+.menu__nav--categories:hover{
   background: none;
   color: #FB6F92;
 }
@@ -169,7 +173,7 @@ cursor:pointer;
  text-align: left;
   display:inline-block;
 }
-.menu__nav--links--redes{
+.menu__nav--social-network{
   padding: 0;
   border-radius: 3px;
   display: inline-block;
