@@ -1,6 +1,12 @@
 @font-face {
   font-family: "Roboto-Black";
   src: url("/Roboto/Roboto-Black.woff") format(.woff);
+  src: url("/Roboto/Roboto-Black.ttf") format(.truetype);
+  font-display:swap;
+}
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url("/Roboto/Roboto-BoldItalic.woff") format(.woff);
   font-display:swap;
 }
 *{
@@ -31,14 +37,14 @@
   margin-top:10px;
   margin-left: 20px;
 }
-.menu__nav--nav_links{
+.menu__nav--nav_categories{
   width: 80%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.menu__nav--nav_links li{
+.menu__nav--nav_categories li{
   display:inline-block;
   line-height: 80px;
 }
@@ -55,7 +61,7 @@
 .menu__nav--label{
   font-size:20px;
 }
-.links__redes{
+.links__social-network{
   width:10%;
   height: 100%;
   display: flex;
@@ -76,14 +82,13 @@
   margin-top:20px ;
   cursor:pointer;
   display: none;
-  
 }
 .rosa{
   display:none;
   color:black;
 }
 
-#menu__nav--check, .menu__nav--links--enlace--suscripcion{
+#menu__nav--check{
 display:none;
 }
 
@@ -100,7 +105,7 @@ font-size: .8rem;
   display:block;
   /*margin-right: 10px;*/
 }
-.menu__nav--nav_links{
+.menu__nav--nav_categories{
   position: fixed;
   z-index: 1;
   display: block;
@@ -112,7 +117,7 @@ font-size: .8rem;
   text-align: center;
   transition: all .5s;
 }
-.menu__nav--nav_links > li{
+.menu__nav--nav_categories > li{
 display: block;
 width: 100%;
 padding-left:5%;
@@ -127,7 +132,7 @@ position:relative;
 cursor:pointer;
 
 }
-.menu__nav--nav_links > li:hover{
+.menu__nav--nav_categories > li:hover{
   background-color:#FB6F92;
   transition: all 0.75s;
 }
@@ -203,7 +208,7 @@ cursor:pointer;
   
 }
 
-.secundaria{
+.secondary{
   width: 400px;
 }
 
@@ -211,7 +216,7 @@ cursor:pointer;
   width: 800px;
 }
 
-.mediana{
+.medium{
   width: 500px;
  
 }
@@ -231,7 +236,7 @@ cursor:pointer;
   
 }
 
-.card--img--secundaria{  
+.card--img--secondary{  
   width: 100%;
   height:80%;
 }
@@ -240,7 +245,7 @@ cursor:pointer;
   height:80%;
 }
 
-.titulo--card--categoria{
+.title--card--category{
   text-underline-position: auto;
   border-bottom: 5px solid #de41d1;
   margin-top:1rem;
@@ -252,7 +257,7 @@ cursor:pointer;
   font-weight: 200;
 }
 
-.logos-empresa{
+.company-logo{
   height: 50px;
   justify-content:space-evenly;
 }
